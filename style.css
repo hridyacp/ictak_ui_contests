@@ -1,0 +1,84 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-image: url(images/bg.png);
+    background-position: center;
+    background-size: cover;
+}
+.navbar-nav a{
+    color:white;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-decoration: none;
+font-size: large;
+}
+.navbar-nav a:hover{
+    color:white;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-decoration: none;
+}
+.dropdown-menu{
+    background-color: unset;
+    border: unset;
+}
+.carousel-item img{
+    height:400px;
+    width:60%;
+}
+.wrapper{
+   transform: translate( -50%, -50%);
+    }
+    
+.img-animation{
+    width:500px;
+    height:300px; 
+    transform-style: preserve-3d; 
+    transform-origin: 100% 125px; 
+    transition: all 0.7s ease; 
+    position: relative;
+    left:150px;
+}
+.img-animation img{
+    width: 50%;
+    }
+    
+.img-area:hover .img-animation{ 
+    transform: rotateX(-180deg);
+    }
+    
+ .front-side, .back-side{
+    width:500px; 
+    height:300px; 
+    position: absolute; backface-visibility: hidden; 
+    }
+    
+.back-side{ 
+    transform: rotateX(180deg);
+}
+.img-animation .back-side{
+     width: 50%;
+    } 
+ .back-side{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.card .card-text {
+    font-size: 17px;
+    color:black;
+    
+}
+.card i{
+  
+    margin-left: 0;
+}
+h4{
+    font-family: cursive;
+}
+.adres{
+    background-color: grey;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+}
